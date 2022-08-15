@@ -65,6 +65,7 @@ li a:hover{
 
 .mid:hover{
 	color: #96351E;
+	cursor: pointer;
 	font-size: 42px;
 }
 
@@ -90,7 +91,8 @@ li a:hover{
 	font-size: 40px;
 	color: #96351E;
 	align-content: center;
-	padding: 100px 0 0 120px;
+	padding: 100px 50px 0 100px;
+	margin: 30px auto;
 }
 
 .work{
@@ -115,7 +117,7 @@ form{
 	border-radius: 8px;
 	box-shadow: 0 0 30px -10px #000000;
 	margin-top: 100px;
-	margin: auto;
+	margin: 25px auto;
 	padding: 25px 30px;
 	box-sizing: border-box;
 	align-content: center;
@@ -197,7 +199,70 @@ p:before{
 .main{
 	width: 80%;
 	height: 100%;
-	background-color: rgba(62,52,41);
+	margin: 10px auto;
+	padding: 30px;
+	background-color: #F9EED9;
+}
+
+.me{
+	align-content: center;
+	text-align: center;
+}
+
+.me h3{
+	font-size: 28px;
+	font-family: 'Copperplate', fantasy;
+}
+
+.me p{
+	font-size: 15px;
+	font-family: 'Monaco', monospace;
+}
+
+.pages{
+	margin-top: 50px;
+	align-content: center;
+	text-align: center;
+}
+
+.pages h3{
+	font-size: 28px;
+	font-family: 'Copperplate', fantasy;
+}
+
+.pages p{
+	font-size: 15px;
+	font-family: 'Monaco', monospace;
+}
+
+.report{
+	width: 90%;
+	height: 100%;
+	padding: 30px;
+	background-color: #F9EED9;
+	align-content: center;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.report p{
+	font-size: 20px;
+}
+
+.basic p{
+	font-size: 20px;
+}
+
+.pages img{
+	margin: 20px auto;
+}
+
+
+@media (max-width: 800px){
+	.pages img{
+		width: 550px;
+		height: 250px;
+	}
 }
 
 @media (max-width: 750px){
@@ -233,6 +298,17 @@ p:before{
 		color: #DBB98F;	
 	}
 
+	.pages img{
+		width: 500px;
+		height: 200px;
+	}
+
+	.basic img{
+		width: 350px;
+		height: 250px;
+		margin: 10px auto;
+	}
+
 }
 
 @media (max-width: 600px){
@@ -242,4 +318,10 @@ p:before{
 		align-content: center;
 		padding: 15px 0 0 15px;
 	}
+
+	.pages img{
+		width: 300px;
+		height: 200px;
+	}
+
 }
